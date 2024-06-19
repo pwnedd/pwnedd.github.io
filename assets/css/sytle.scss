@@ -1,79 +1,26 @@
+---
+---
+
 @import "{{ site.theme }}";
 
-.github-button .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  vertical-align: middle;
-  background: url("../images/github.png") no-repeat center center;
-  background-size: contain;
-}
+.btn-github .icon {opacity: 0.6;background: url("../images/github.png") 0 0 no-repeat;}
+.btn-twitter .icon {opacity: 0.6;background: url("../images/twitter.png") 0 0 no-repeat;}
+.btn-youtube .icon {opacity: 0.6;background: url("../images/youtube.png") 0 0 no-repeat;}
+.btn-root-page .icon {opacity: 0.6;background: url("../images/home.png") 0 0 no-repeat;}
+#tags {font-size: 13px;}
 
-.htb-button .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  vertical-align: middle;
-  background: url("../images/htb.png") no-repeat center center;
-  background-size: contain;
-}
-
-.thm-button .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  vertical-align: middle;
-  background: url("{{ site.baseurl }}/assets/images/thm.png") no-repeat center center;
-  background-size: contain;
-}
-
-.root-page-button .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  vertical-align: middle;
-  background: url("../images/home.png") no-repeat center center;
-  background-size: contain;
-}
-
-.zip-button .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  vertical-align: middle;
-  background: url("../images/zip.png") no-repeat center center;
-  background-size: contain;
-}
-
-.tar-button .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  vertical-align: middle;
-  background: url("../images/tar.png") no-repeat center center;
-  background-size: contain;
-}
-
-#tags {
-  font-size: 13px;
-}
 
 body { 
-  font-family: Arial, Helvetica, sans-serif; 
-  font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 17px;
 }
 
-red { color: red; }
-blue { color: #63c0f5; }
-yellow { color: yellow; }
-purple { color: purple; }
-white { color: white; }
-green { color: green; }
-gold { color: gold; }
-orange { color: orange; }
+
+red {color: red;}
+blue {color: #63c0f5;}
+yellow {color: yellow;}
+purple {color: purple;}
+white {color: white;}
+green {color: green;}
+gold {color: gold;}
+orange {color: orange;}
