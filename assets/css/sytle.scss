@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .btn-htb .icon {opacity: 0.6;background: url("../images/htb.png") 0 0 no-repeat;}
-.btn-thm .icon {opacity: 0.6;background: url("{{ site.baseurl }}/assets/images/thm.png") 0 0 no-repeat;}
+.btn-thm .icon {opacity: 0.6;background: url("https://pwnedd.github.io/assets/images/thm.png") 0 0 no-repeat;}
 .btn-root-pages .icon {opacity: 0.6;background: url("../images/root.png") 0 0 no-repeat;}
 #tags {font-size: 13px;}
 
