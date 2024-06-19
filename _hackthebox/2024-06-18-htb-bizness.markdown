@@ -1,4 +1,5 @@
 ---
+layout: post
 ---
 
 Bizness is an easy rated machine on HackTheBox although many players/hackers disagree leading to a current review of 2.8 stars only. I enjoyed the first half of the box because i was able to get user on my own. The privilege escalation led me into rabbit holes and i had to read multiple writeups to understand whats really going on. 
