@@ -1,24 +1,23 @@
-@import "{{ site.theme }}";  // Ensure this path is correct and the theme is available
+@import "{{ site.theme }}";
 
-// Define styles for the icons inside the buttons
-.btn-github .icon {
+.github-button .icon {
   opacity: 0.6;
-  background: url("../images/github.png") 0 0 no-repeat;  // Ensure this path is correct
+  background: url("../images/github.png") 0 0 no-repeat;
 }
 
-.btn-htb .icon {
+.htb-button .icon {
   opacity: 0.6;
-  background: url("../images/htb.png") 0 0 no-repeat;  // Ensure this path is correct
+  background: url("../images/htb.png") 0 0 no-repeat;
 }
 
-.btn-thm .icon {
+.thm-button .icon {
   opacity: 0.6;
-  background: url("{{ site.baseurl }}/assets/images/thm.png") 0 0 no-repeat;  // Ensure this path is correct
+  background: url("{{ site.baseurl }}/assets/images/thm.png") 0 0 no-repeat;
 }
 
-.btn-root-page .icon {
+.root-page-button .icon {
   opacity: 0.6;
-  background: url("../images/home.png") 0 0 no-repeat;  // Ensure this path is correct
+  background: url("../images/home.png") 0 0 no-repeat;
 }
 
 #tags {
@@ -30,7 +29,6 @@ body {
   font-size: 17px;
 }
 
-// Define styles for various text colors
 red { color: red; }
 blue { color: #63c0f5; }
 yellow { color: yellow; }
