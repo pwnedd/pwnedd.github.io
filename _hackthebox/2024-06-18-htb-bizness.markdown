@@ -101,21 +101,21 @@ OS and Service detection performed. Please report any incorrect results at https
 Starting with the nmap scan there is only three open ports.
 The openSSH version doesnt seem much interesting, thats why i move on to the webpage running on port 80
 
-![[Pasted image 20240615125252.png]]
+![[Pasted image /assets/images/20240615125252.png]]
 It resolves to https://bizness.htb
 
 ```
 sudo nano /etc/hosts
 ```
 
-![[Pasted image 20240615125456.png]]
+![[Pasted image /assets/images/20240615125456.png]]
 
 after adding this to our hosts file we can see the webpage its serving:
-![[Pasted image 20240615125639.png]]
+![[Pasted image /assets/images/20240615125639.png]]
 
 click on advanced and proceed
 
-![[Pasted image 20240615125715.png]]
+![[Pasted image /assets/images/20240615125715.png]]
 
 I am going to use ffuf to scan for directories and subdomains. If you do not know how to use ffuf you can read about it on http://ffuf.me
 
@@ -184,7 +184,7 @@ control                 [Status: 200, Size: 34633, Words: 10468, Lines: 492, Dur
 ```
 But my ffuf dirsearch found the endpoint /control
 
-![[Pasted image 20240615135420.png]]
+![[Pasted image /assets/images/20240615135420.png]]
 
 The error message shows us that some service called Apache OFBiz is used. 
 
