@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bizness"
-date:   2024-06-13 14:03:47 +0200
+date:   2024-06-18 14:03:47 +0200
 categories: jekyll update
 ---
 
