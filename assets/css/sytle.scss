@@ -1,26 +1,41 @@
----
----
+@import "{{ site.theme }}";  // Ensure this path is correct and the theme is available
 
-@import "{{ site.theme }}";
-
-.btn-github .icon {opacity: 0.6;background: url("../images/github.png") 0 0 no-repeat;}
-.btn-htb .icon {opacity: 0.6;background: url("../images/htb.png") 0 0 no-repeat;}
-.btn-thm .icon {opacity: 0.6;background: url("{{ site.baseurl }}/assets/images/thm.png") 0 0 no-repeat;}
-.btn-root-pages .icon {opacity: 0.6;background: url("../images/home.png") 0 0 no-repeat;}
-#tags {font-size: 13px;}
-
-
-body { 
-	font-family: Arial, Helvetica, sans-serif; 
-	font-size: 17px;
+// Define styles for the icons inside the buttons
+.btn-github .icon {
+  opacity: 0.6;
+  background: url("../images/github.png") 0 0 no-repeat;  // Ensure this path is correct
 }
 
+.btn-htb .icon {
+  opacity: 0.6;
+  background: url("../images/htb.png") 0 0 no-repeat;  // Ensure this path is correct
+}
 
-red {color: red;}
-blue {color: #63c0f5;}
-yellow {color: yellow;}
-purple {color: purple;}
-white {color: white;}
-green {color: green;}
-gold {color: gold;}
-orange {color: orange;}
+.btn-thm .icon {
+  opacity: 0.6;
+  background: url("{{ site.baseurl }}/assets/images/thm.png") 0 0 no-repeat;  // Ensure this path is correct
+}
+
+.btn-root-page .icon {
+  opacity: 0.6;
+  background: url("../images/home.png") 0 0 no-repeat;  // Ensure this path is correct
+}
+
+#tags {
+  font-size: 13px;
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 17px;
+}
+
+// Define styles for various text colors
+red { color: red; }
+blue { color: #63c0f5; }
+yellow { color: yellow; }
+purple { color: purple; }
+white { color: white; }
+green { color: green; }
+gold { color: gold; }
+orange { color: orange; }
