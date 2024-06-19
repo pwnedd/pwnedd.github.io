@@ -101,14 +101,14 @@ OS and Service detection performed. Please report any incorrect results at https
 Starting with the nmap scan there is only three open ports.
 The openSSH version doesnt seem much interesting, thats why i move on to the webpage running on port 80
 
-![[Pasted image /assets/images/20240615125252.png]]
+![Image](/assets/images/20240615125252.png)
 It resolves to https://bizness.htb
 
 ```
 sudo nano /etc/hosts
 ```
 
-![[Pasted image /assets/images/20240615125456.png]]
+![Image]({{site.baseurl}}/assets/images/20240615125456.png)
 
 after adding this to our hosts file we can see the webpage its serving:
 ![[Pasted image /assets/images/20240615125639.png]]
