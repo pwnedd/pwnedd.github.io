@@ -1,8 +1,5 @@
 ---
 layout: post
-title:  "Bizness"
-date:   2024-06-18 14:03:47 +0200
-categories: jekyll update
 ---
 
 Bizness is an easy rated machine on HackTheBox although many players/hackers disagree leading to a current review of 2.8 stars only. I enjoyed the first half of the box because i was able to get user on my own. The privilege escalation led me into rabbit holes and i had to read multiple writeups to understand whats really going on. 
